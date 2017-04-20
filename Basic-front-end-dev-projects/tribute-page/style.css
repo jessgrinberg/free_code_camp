@@ -1,0 +1,11 @@
+h1, h2, h3, blockquote > p {
+    font-family: 'Lora', serif;
+}
+
+body {
+    padding-top: 20px
+}
+
+p {
+    font-size: 15px !important;
+}
