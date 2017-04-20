@@ -18,5 +18,6 @@ $(document).ready(function() {
     $("#target1").parent().css("background-color", "red");
     $("#right-well").children().css("color", "orange");
     $(".target:nth-child(2)").addClass("animated bounce")
+    $(".target:even").addClass("animated shake");
 
 });
