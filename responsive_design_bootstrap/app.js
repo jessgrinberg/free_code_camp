@@ -13,5 +13,6 @@ $(document).ready(function() {
     $("#target1").prop("disabled", true);
     $("#target4").html("<em>#target4</em>")
     $("#target4").remove();
+    $("#target2").appendTo("#right-well");
 
 });
