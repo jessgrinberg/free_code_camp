@@ -14,5 +14,6 @@ $(document).ready(function() {
     $("#target4").html("<em>#target4</em>")
     $("#target4").remove();
     $("#target2").appendTo("#right-well");
+    $("#target5").clone().appendTo("#left-well");
 
 });
