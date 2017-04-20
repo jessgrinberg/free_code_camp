@@ -10,5 +10,6 @@ $(document).ready(function() {
     // $("button").removeClass("btn-default");
 
     $("#target1").css("color","red");
+    $("#target1").prop("disabled", true);
 
 });
