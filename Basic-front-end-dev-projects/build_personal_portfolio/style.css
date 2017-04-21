@@ -16,15 +16,15 @@ body {
 }
 
 .about h1 {
-    font-weight: 900;
-    font-size: 80px;
     color: #fff;
-    padding-top: 1em;
-    padding-left: 20px;
 }
 
-.about p:nth-child(1) {
-    padding-top: 3em;
+.about h1, .work h1 {
+    font-weight: 900;
+    font-size: 80px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 20px;
 }
 
 .about p {
@@ -37,5 +37,10 @@ body {
 .libre {
     font-family: 'Libre Baskerville', serif;
     font-style:italic;
+    color: #fff;
+}
+
+#work {
+    background-color: #E54E4B;
     color: #fff;
 }
