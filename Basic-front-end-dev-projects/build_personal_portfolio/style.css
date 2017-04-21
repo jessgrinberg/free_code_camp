@@ -2,6 +2,29 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    height: 100vh;
+    background-image: url("http://lawebhouse.com/wp-content/uploads/2017/02/Agile-1.jpg");
+    background-size: cover no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+nav {
+    border: 0px solid #fff !important;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0);
+    padding: 1em 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2;
+}
+
 .no-margin-bottom {
     margin-bottom: 0px;
 }
