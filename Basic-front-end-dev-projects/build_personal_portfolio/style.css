@@ -42,7 +42,7 @@ nav {
     color: #fff;
 }
 
-.about h1, .work h1 {
+.about h1, .work h1, .contact h1 {
     font-weight: 900;
     font-size: 80px;
     padding-top: 1em;
@@ -68,6 +68,15 @@ nav {
     color: #fff;
 }
 
+#contact {
+    background-color: #f8f8f8;
+    height: 100vh;
+}
+
 .portfolio {
     padding: 5em;
+}
+
+.btn-social-icon {
+    font-size: 2em;
 }
