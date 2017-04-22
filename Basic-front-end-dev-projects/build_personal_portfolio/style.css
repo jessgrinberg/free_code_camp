@@ -80,3 +80,12 @@ nav {
 .btn-social-icon {
     font-size: 2em;
 }
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    padding: 3em 0;
+}
