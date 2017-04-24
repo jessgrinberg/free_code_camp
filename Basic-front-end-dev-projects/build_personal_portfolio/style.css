@@ -15,12 +15,12 @@ nav {
 }
 
 .navbar {
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,1);
     padding: 1em 0;
 }
 
 .navbar a {
-    color: #fff;
+    color: #000 !important;
     font-size: 16px;
     letter-spacing: 2;
 }
@@ -97,4 +97,15 @@ footer p {
 
 .btn-social-icon:hover {
     color: #000;
+}
+
+.headline {
+    position: absolute;
+    top: 40%
+}
+.headline h1 {
+    color: #fff;
+    font-size: 3em;
+    letter-spacing: .1em;
+    padding-bottom: .2em;
 }
