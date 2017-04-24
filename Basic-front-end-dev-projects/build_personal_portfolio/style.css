@@ -89,3 +89,12 @@ footer {
 footer p {
     padding: 3em 0;
 }
+
+.btn-social-icon {
+    color: rgba(0,0,0,0.6);
+    font-size: 2.5em;
+}
+
+.btn-social-icon:hover {
+    color: #000;
+}
