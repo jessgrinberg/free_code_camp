@@ -29,3 +29,14 @@ f = "I am a";
 d = d + 1;
 e = e + 5;
 f = f + " String!";
+
+
+// Declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
