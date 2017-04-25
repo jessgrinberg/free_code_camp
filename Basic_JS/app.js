@@ -188,3 +188,5 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 wordBlanks("dog", "big", "ran", "quickly");
 
 var myArray = ["Jessica", 31];
+
+var myNestArray = [["Jessica",31],["weight",100]];
