@@ -194,3 +194,6 @@ var myNestArray = [["Jessica",31],["weight",100]];
 var myIndexArray = [1,2,3];
 // Only change code below this line.
 var myData = myIndexArray[0];
+
+var myModifArray = [1,2,3];
+myModifArray[0] = 3;
