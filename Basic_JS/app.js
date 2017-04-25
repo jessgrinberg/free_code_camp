@@ -145,3 +145,8 @@ var myStringName;
 var myConstructStr;
 myStringName = "Jessica";
 myConstructStr = "My name is " + myStringName + " and I am swell!";
+
+var someAdjective;
+var myAppendStr = "Learning to code is ";
+someAdjective = "amazing";
+myAppendStr += someAdjective;
