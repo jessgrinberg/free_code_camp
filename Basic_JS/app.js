@@ -201,3 +201,6 @@ myModifArray[0] = 3;
 var myMultiArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 // Only change code below this line.
 var myData = myMultiArray[2][1];
+
+var myPushArray = [["John", 23], ["cat", 2]];
+myPushArray.push(["dog",3]);
