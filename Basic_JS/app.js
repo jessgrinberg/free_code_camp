@@ -136,3 +136,7 @@ var mySecondStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 var myThirdStr= "FirstLine\n\\SecondLine\\\rThirdLine";
 
 var myConcatenate = "This is the start. " + "This is the end.";
+
+var mySecondConcatenate;
+mySecondConcatenate = "This is the first sentence. ";
+mySecondConcatenate += "This is the second sentence.";
