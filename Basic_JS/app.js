@@ -214,3 +214,5 @@ var removedFromMyArray = myShiftArray.shift();
 var myUnshiftArray = [["John", 23], ["dog", 3]];
 myUnshiftArray.shift();
 myUnshiftArray.unshift(["Paul",35]);
+
+var myList = [["chocolate bar", 5], ["oatmeal",1],["milk",2],["apples",10],["bananas",3]];
