@@ -164,3 +164,7 @@ firstLetterOfLastName = lastName[0];
 var myStrImmutability = "Jello World";
 // Only change code below this line
 myStrImmutability = "Hello World";
+
+var lastName = "Lovelace";
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
