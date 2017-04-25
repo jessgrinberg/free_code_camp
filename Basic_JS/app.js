@@ -204,3 +204,6 @@ var myData = myMultiArray[2][1];
 
 var myPushArray = [["John", 23], ["cat", 2]];
 myPushArray.push(["dog",3]);
+
+var myPopArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray = myPopArray.pop();
