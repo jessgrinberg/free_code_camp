@@ -63,3 +63,4 @@ var decrement = 11;
 decrement --;
 
 var myDecimal = 5.3;
+var product = 2.0 * 2.5;
