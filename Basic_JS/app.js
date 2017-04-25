@@ -173,3 +173,16 @@ var lastName = "Lovelace";
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
 var secondToLastLetterOfLastName = lastName[lastName.length -2];
+
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  var result = "";
+  // Your code below this line
+
+  result = myNoun + " ! He said " + myVerb + " as he jumped into his convertible and " +  myAdverb + " drove off with his " + myAdjective + "."
+  // Your code above this line
+  return result;
+}
+
+// Change the words here to test your function
+wordBlanks("dog", "big", "ran", "quickly");
