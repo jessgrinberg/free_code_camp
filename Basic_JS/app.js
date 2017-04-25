@@ -150,3 +150,7 @@ var someAdjective;
 var myAppendStr = "Learning to code is ";
 someAdjective = "amazing";
 myAppendStr += someAdjective;
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+lastNameLength = lastName.length;
