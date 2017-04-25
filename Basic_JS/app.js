@@ -127,3 +127,6 @@ convertToF(30);
 
 var myFirstName = "Jessica";
 var myLastName = "Grinberg"
+
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
