@@ -123,3 +123,7 @@ function convertToF(celsius) {
 
 // Change the inputs below to test your code
 convertToF(30);
+
+
+var myFirstName = "Jessica";
+var myLastName = "Grinberg"
