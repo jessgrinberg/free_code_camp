@@ -98,3 +98,14 @@ var p = 4.6;
 m *= 5;
 n *= 3;
 p *= 10;
+
+
+var q = 48;
+var r = 108;
+var s = 33;
+
+// Only modify code below this line
+
+q /= 12;
+r /= 4;
+s /= 11;
