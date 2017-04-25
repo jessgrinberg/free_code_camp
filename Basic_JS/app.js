@@ -186,3 +186,5 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 
 // Change the words here to test your function
 wordBlanks("dog", "big", "ran", "quickly");
+
+var myArray = ["Jessica", 31];
