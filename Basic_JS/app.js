@@ -170,4 +170,4 @@ var lastName = "Lovelace";
 var thirdLetterOfLastName = lastName[2];
 
 var lastName = "Lovelace";
-var lastLetterOfLastName = lastName[lastN
+var lastLetterOfLastName = lastName[lastName.length - 1];
