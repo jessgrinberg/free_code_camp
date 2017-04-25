@@ -61,3 +61,5 @@ var decrement = 11;
 
 // Only change code below this line
 decrement --;
+
+var myDecimal = 5.3;
