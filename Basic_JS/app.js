@@ -154,3 +154,9 @@ myAppendStr += someAdjective;
 var lastNameLength = 0;
 var lastName = "Lovelace";
 lastNameLength = lastName.length;
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+// Only change code below this line
+firstLetterOfLastName = lastName[0];
