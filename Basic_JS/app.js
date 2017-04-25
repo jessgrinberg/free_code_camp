@@ -68,3 +68,16 @@ var quotient = 4.4 / 2.0;
 
 var remainder;
 remainder = 11 % 3;
+
+
+
+
+var g = 3;
+var h = 17;
+var i = 12;
+
+// Only modify code below this line
+
+g += 12;
+h += 9;
+i += 7;
