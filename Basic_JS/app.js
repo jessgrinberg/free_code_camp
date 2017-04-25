@@ -197,3 +197,7 @@ var myData = myIndexArray[0];
 
 var myModifArray = [1,2,3];
 myModifArray[0] = 3;
+
+var myMultiArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+// Only change code below this line.
+var myData = myMultiArray[2][1];
