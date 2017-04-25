@@ -207,3 +207,6 @@ myPushArray.push(["dog",3]);
 
 var myPopArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray = myPopArray.pop();
+
+var myShiftArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray = myShiftArray.shift();
