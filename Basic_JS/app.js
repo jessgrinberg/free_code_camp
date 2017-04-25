@@ -168,3 +168,6 @@ myStrImmutability = "Hello World";
 var lastName = "Lovelace";
 // Only change code below this line.
 var thirdLetterOfLastName = lastName[2];
+
+var lastName = "Lovelace";
+var lastLetterOfLastName = lastName[lastN
