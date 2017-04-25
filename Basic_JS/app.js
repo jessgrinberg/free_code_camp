@@ -140,3 +140,8 @@ var myConcatenate = "This is the start. " + "This is the end.";
 var mySecondConcatenate;
 mySecondConcatenate = "This is the first sentence. ";
 mySecondConcatenate += "This is the second sentence.";
+
+var myStringName;
+var myConstructStr;
+myStringName = "Jessica";
+myConstructStr = "My name is " + myStringName + " and I am swell!";
