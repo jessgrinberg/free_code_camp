@@ -210,3 +210,7 @@ var removedFromMyArray = myPopArray.pop();
 
 var myShiftArray = [["John", 23], ["dog", 3]];
 var removedFromMyArray = myShiftArray.shift();
+
+var myUnshiftArray = [["John", 23], ["dog", 3]];
+myUnshiftArray.shift();
+myUnshiftArray.unshift(["Paul",35]);
