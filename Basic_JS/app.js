@@ -280,3 +280,8 @@ function myOutfit() {
 }
 
 myOutfit();
+
+function timesFive(num) {
+  return num * 5;
+}
+timesFive(2);
