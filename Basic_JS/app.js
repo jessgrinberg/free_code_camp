@@ -344,9 +344,19 @@ testEqual(12);
 
 
 function testStrict(val) {
-  if (val === 7) { 
+  if (val === 7) {
     return "Equal";
   }
   return "Not Equal";
 }
 testStrict(7);
+
+
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
