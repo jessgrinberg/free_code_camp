@@ -408,7 +408,7 @@ testGreaterOrEqual(10);
 
 
 function testLessThan(val) {
-  if (val < 25 ) { 
+  if (val < 25 ) {
     return "Under 25";
   }
 
@@ -420,3 +420,18 @@ function testLessThan(val) {
 }
 
 testLessThan(10);
+
+function testLessOrEqual(val) {
+  if (val <= 12 ) {
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <= 24 ) { 
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "25 or More";
+}
+
+// Change this value to test
+testLessOrEqual(10);
