@@ -334,10 +334,19 @@ trueOrFalse(false);
 
 
 function testEqual(val) {
-  if (val == 12) { 
+  if (val == 12) {
     return "Equal";
   }
   return "Not Equal";
 }
 
 testEqual(12);
+
+
+function testStrict(val) {
+  if (val === 7) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testStrict(7);
