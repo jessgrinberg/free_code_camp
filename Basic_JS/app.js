@@ -392,7 +392,7 @@ testGreaterThan(10);
 
 
 function testGreaterOrEqual(val) {
-  if (val >= 20) {  
+  if (val >= 20) {
     return "20 or Over";
   }
 
@@ -405,3 +405,18 @@ function testGreaterOrEqual(val) {
 
 // Change this value to test
 testGreaterOrEqual(10);
+
+
+function testLessThan(val) {
+  if (val < 25 ) { 
+    return "Under 25";
+  }
+
+  if (val < 55 ) {
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+testLessThan(10);
