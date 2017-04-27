@@ -426,7 +426,7 @@ function testLessOrEqual(val) {
     return "Smaller Than or Equal to 12";
   }
 
-  if (val <= 24 ) { 
+  if (val <= 24 ) {
     return "Smaller Than or Equal to 24";
   }
 
@@ -435,3 +435,17 @@ function testLessOrEqual(val) {
 
 // Change this value to test
 testLessOrEqual(10);
+
+
+function testLogicalAnd(val) {
+
+  if (val <= 50 && val >= 25) {
+      return "Yes";
+
+  }
+
+  return "No";
+}
+
+// Change this value to test
+testLogicalAnd(10);
