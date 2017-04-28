@@ -684,3 +684,11 @@ function abTest(a, b) {
 }
 
 abTest(2,2);
+
+
+var myDog = {
+  "name": "Vegas",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["cat","mouse","goldfish"]
+};
