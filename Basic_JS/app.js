@@ -720,5 +720,15 @@ var testObj = {
   19: "Unitas"
 };
 
-var playerNumber = 16;  
+var playerNumber = 16;
 var player = testObj[playerNumber];
+
+
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Free Code Camp Campers"]
+};
+
+myDog["name"] = "Happy Coder";
