@@ -838,3 +838,11 @@ var total = 0;
 for (var i=0; i<myArr.length; i++) {
   total += myArr[i];
 }
+
+
+var myArray = [];
+var i = 0;
+while (i < 5) {
+  myArray.push(i);
+  i++
+}
