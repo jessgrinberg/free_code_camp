@@ -846,3 +846,8 @@ while (i < 5) {
   myArray.push(i);
   i++
 }
+
+
+function randomFraction() {
+  return Math.random();
+}
