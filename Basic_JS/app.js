@@ -863,3 +863,16 @@ function randomRange(myMin, myMax) {
   return Math.floor(Math.random() * (myMax - myMin + 1) + myMin ); // Change this line
 }
 var myRandom = randomRange(5, 15);
+
+
+// Setup
+var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
+
+// Example
+var expressionToGetSoftware = /software/gi;
+var softwareCount = testString.match(expressionToGetSoftware).length;
+  
+var expression = /and/gi;  // Change this Line
+
+// This code counts the matches of expression in testString
+var andCount = testString.match(expression).length;
