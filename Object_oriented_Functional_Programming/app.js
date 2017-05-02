@@ -34,3 +34,12 @@ var Car = function() {
 
 var myCar = new Car();
 myCar.nickname = "mumu";
+
+//4.Make Unique Objects by Passing Parameters to our Constructor
+var Car = function(wheels, seats,engines) {
+  this.wheels = wheels;
+  this.seats = seats;
+  this.engines = engines;
+};
+
+var myCar = new Car(4,4,1);
