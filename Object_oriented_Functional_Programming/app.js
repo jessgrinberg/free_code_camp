@@ -132,3 +132,11 @@ var concatMe = [4,5,6];
 
 
 newArray = oldArray.concat(concatMe);
+
+
+//12.Split Strings with split
+
+var string = "Split me into an array";
+var array = [];
+
+array = string.split(" ");
