@@ -107,3 +107,18 @@ var oldArray = [1,2,3,4,5,6,7,8,9,10];
 var newArray = oldArray.filter(function(val) {
   return val < 6;
 });
+
+//9.Sort Arrays with sort
+var array = [1, 12, 21, 2];
+
+array.sort(function(a,b) {
+  return b - a;
+});
+
+
+//10.Reverse Arrays with reverse
+
+var array = [1,2,3,4,5,6,7];
+var newArray = [];
+
+newArray = array.reverse();
