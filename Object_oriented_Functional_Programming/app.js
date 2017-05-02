@@ -140,3 +140,11 @@ var string = "Split me into an array";
 var array = [];
 
 array = string.split(" ");
+
+
+//13.Join Strings with join
+
+var joinMe = ["Split","me","into","an","array"];
+var joinedString = '';
+
+joinedString = joinMe.join(" ");
