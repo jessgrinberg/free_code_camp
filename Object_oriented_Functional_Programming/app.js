@@ -10,3 +10,17 @@ var motorBike = {
   "engines": 1,
   "seats": 2
 };
+
+//2.Construct JavaScript Objects with Functions
+//use capital word to make it clear it is a constructor
+var Car = function() {
+  this.wheels = 4;
+  this.engines = 1;
+  this.seats = 5;
+};
+
+var MotorBike = function() {
+  this.wheels = 2;
+  this.engines = 1;
+  this.seats = 1;
+};
