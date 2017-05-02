@@ -24,3 +24,13 @@ var MotorBike = function() {
   this.engines = 1;
   this.seats = 1;
 };
+
+//3.Make Instances of Objects with a Constructor Function
+var Car = function() {
+  this.wheels = 4;
+  this.engines = 1;
+  this.seats = 5;
+};
+
+var myCar = new Car();
+myCar.nickname = "mumu";
