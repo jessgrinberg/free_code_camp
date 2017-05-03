@@ -19,7 +19,7 @@ function factorialize(num) {
 
 factorialize(5);
 
-//4.Find the Longest Word in a String
+//5.Find the Longest Word in a String
 
 
 function findLongestWord(str) {
@@ -41,3 +41,21 @@ findLongestWord("The quick brown fox jumped over the lazy dog");
 
       return maxLength;
     }
+
+
+//6.Title Case a Sentence
+
+function titleCase(str) {
+ return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
+
+titleCase("I'm a little tea pot");
+
+// Explanation:
+// The / Is the beginning of a regex (regular expression).
+// The \w looks for all word characters in a string.
+// A word character is a character from a-z, A-Z, 0-9,
+// including the _ (underscore) character.
+// The \S is any character that is NOT a whitespace character.
+// The * is a character that says to look for n zero or more times.
+// The /g selects each instance.
