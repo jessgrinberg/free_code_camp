@@ -19,6 +19,22 @@ function factorialize(num) {
 
 factorialize(5);
 
+
+//3. Check for Palindromes
+
+function palindrome(str) {
+
+  str = str.replace(/[^0-9a-z]/gi, '').toLowerCase();
+  if (str == str.split('').reverse().join('')) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+palindrome("eye to 8 A.Tnd me");
+
+
 //4.Find the Longest Word in a String
 
 
