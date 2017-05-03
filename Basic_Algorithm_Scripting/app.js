@@ -19,7 +19,7 @@ function factorialize(num) {
 
 factorialize(5);
 
-//5.Find the Longest Word in a String
+//4.Find the Longest Word in a String
 
 
 function findLongestWord(str) {
@@ -43,7 +43,7 @@ findLongestWord("The quick brown fox jumped over the lazy dog");
     }
 
 
-//6.Title Case a Sentence
+//4.Title Case a Sentence
 
 function titleCase(str) {
  return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
@@ -59,3 +59,22 @@ titleCase("I'm a little tea pot");
 // The \S is any character that is NOT a whitespace character.
 // The * is a character that says to look for n zero or more times.
 // The /g selects each instance.
+
+
+//6.Return Largest Numbers in Arrays
+
+function largestOfFour(arr) {
+  // You can do this!
+  var largestArray = [];
+  for (var i=0; i<arr.length; i++) {
+    var largest = 0;
+    for (var j=0; j< arr[i].length; j++) {
+      if (arr[i][j]>largest) {
+        largest = arr[i][j];
+      }
+    }
+    largestArray[i] = largest;
+  }
+  return largestArray;
+}
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
