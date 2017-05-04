@@ -155,3 +155,26 @@ function slasher(arr, howMany) {
   return arr.slice(howMany);
 }
 slasher([1, 2, 3], 2);
+
+//12. Mutation
+
+
+function mutation(arr) {
+ var first = arr[0].toLowerCase().split("");
+ var second = arr[1].toLowerCase().split("");
+
+ var count = 0;
+ for( var i=0; i<second.length; i++) {
+   if (first.indexOf(second[i]) > -1) {
+      count ++;
+   }
+ }
+
+ if (count === second.length) {
+     return true;
+ } else {
+    return false;
+ }
+}
+
+mutation(["Hello", "hey"]);
