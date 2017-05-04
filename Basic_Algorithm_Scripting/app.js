@@ -115,3 +115,21 @@ function repeatStringNumTimes(str, num) {
 }
 
 repeatStringNumTimes("abc", 3);
+
+
+//9.Truncate a string
+
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  var result ='';
+  if(str.length>num && num >3) {
+    result += str.slice(0, num-3) + '...';
+  } else if ( str.length>num && num <= 3){
+    result += str.slice(0, num) + '...';
+  } else {
+    result += str;
+  }
+  return result;
+}
+
+truncateString("A-tisket a-tasket A green and yellow basket", 11);
