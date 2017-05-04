@@ -103,3 +103,15 @@ function confirmEnding(str, target) {
 }
 
 confirmEnding("Bastian", "n");
+
+
+//8.Repeat a string repeat a string
+function repeatStringNumTimes(str, num) {
+  var result = '';
+  for(var i=0; i<num; i++) {
+    result += str;
+  }
+  return result;
+}
+
+repeatStringNumTimes("abc", 3);
