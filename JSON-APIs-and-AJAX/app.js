@@ -14,6 +14,12 @@ $(document).ready(function() {
       $.getJSON("/json/cats.json", function(json) {
 
         var html = "";
+
+        //6.Prefilter JSON
+        json = json.filter(function(val) {
+          return (val.id !== 1);
+        })
+
         json.forEach(function(val) {
           var keys = Object.keys(val);
           html += "<div class = 'cat'>";
