@@ -9,7 +9,7 @@ $(document).ready(function() {
         //       $(".message").html(JSON.stringify(json));
         //   });
 
-    //4.
+    //4.Convert JSON Data to HTM
     $("#getMessage").on("click", function() {
       $.getJSON("/json/cats.json", function(json) {
 
@@ -19,6 +19,8 @@ $(document).ready(function() {
           html += "<div class = 'cat'>";
           keys.forEach(function(key) {
             html += "<strong>" + key + "</strong>:" + val[key] + "<br>";
+            //5.Render Images from Data Sources
+            html+= "<img src= '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
             html += "</div><br>";
           })
         })
