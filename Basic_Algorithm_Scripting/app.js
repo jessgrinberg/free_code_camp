@@ -202,3 +202,17 @@ function destroyer(arr) {
 }
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+
+
+//14.Where do I belong
+
+function getIndexToIns(arr, num) {
+  // Find my place in this sorted array.
+  arr.push(num);
+  arr.sort(function(a, b){
+      return a-b
+  });
+  return arr.indexOf(num);
+}
+
+getIndexToIns([40, 60,20,30], 50);
