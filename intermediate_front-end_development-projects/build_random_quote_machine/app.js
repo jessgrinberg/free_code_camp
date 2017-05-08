@@ -1,6 +1,5 @@
 var quote = [
     "All our dreams can come true, if we have the courage to pursue them.",
-    "If you can dream it, you can do it.",
     "It's kind of fun to do the impossible.",
     "The way to get started is to quit talking and begin doing.",
     "We keep moving forward, opening new doors, and doing new things, because we're curious and curiosity keeps leading us down new paths.",
@@ -16,6 +15,6 @@ function getQuote() {
     document.getElementById("quoteDisplay").innerHTML = randomQuote;
 }
 
-$("button").on("click", function() {
+$("#newQuote").on("click", function() {
     getQuote();
 });
