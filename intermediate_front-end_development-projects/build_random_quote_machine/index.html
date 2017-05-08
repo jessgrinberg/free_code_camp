@@ -11,7 +11,13 @@
             <div class="jumbotron text-center">
                 <h1>Random Disney Quotes</h1>
                 <p id="quoteDisplay" class="lead">If you can dream it, you can do it.</p>
-                <p><a  id="newQuote" class="btn btn-primary btn-lg" href="#" role="button">New Quote</a></p>
+                <p><a  id="newQuote" class="btn btn-primary btn-lg" href="#" role="button" onClick="getQuote()">New Quote</a></p>
+                <p>
+                    <a id="tweet-share" class="twitter-share-button tweet-share"
+                     href="#" target="_blank" onClick="shareQuote()">
+                     <i class="fa fa-twitter"></i>
+                     Tweet it!</a>
+               </p>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
