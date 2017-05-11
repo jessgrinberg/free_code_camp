@@ -29,7 +29,7 @@ var currentUnit = 'metric';
 });
 
 function renderTemp() {
-    var unitString = currentUnit === 'metric' ? 'C' : 'F';
+    var unitString = currentUnit === 'metric' ? ' C' : ' F';
     $("#temp").html(Math.round(temp) + unitString);
 }
 
