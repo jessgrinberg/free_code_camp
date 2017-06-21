@@ -13,6 +13,7 @@ $(document).ready(function() {
             dataType: "json",
             success: function(data) {
                 var output = $("#output");
+                output.html('');
                 for (var i=0; i<data[1].length; i++) {
                     output.append('<li>' + data[1][0] + '</li>');
                     output.append('<li>' + data[2][0] + '</li>');
