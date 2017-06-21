@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Lato', serif;
+    background: linear-gradient(rgba(52, 232, 158,0.85), rgba(15, 52, 67, 0.95)),
+    url("https://cdn.pixabay.com/photo/2015/01/27/16/03/dictionary-613912_960_720.jpg")
+    no-repeat center center / cover
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(255,255,255, 0.9);
+    transition: color 0.3s ease;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 1em;
+}
+ul {
+    list-style: none;
+    margin: 1em 0;
+    padding-left: 0;
+}
+
+button {
+    display: block !important;
+    margin: 1em auto;
+    background: transparent !important;
+    padding: .5em 2em !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    letter-spacing: 1.2 !important;
+    border-color: #fff !important;
+}
+
+button:hover {
+    background: #fff !important;
+    color: rgba(15, 52, 67, 1) !important;
+    transition: all ease 0.3s;
+}
+
+li:nth-child(3n) {
+    margin-bottom: 1.5em;
+}
+
+li h4{
+    color: #FF070B;
+    font-weight: 800 !important;
+}
+
+li h5 {
+    color: #f8f8f8;
+}
