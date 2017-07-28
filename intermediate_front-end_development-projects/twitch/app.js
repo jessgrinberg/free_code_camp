@@ -1,5 +1,6 @@
 //Run our jQuery
 $(document).ready(function() {
+    var following = [];
 
     $.ajax({
     type: "GET",
@@ -13,6 +14,23 @@ $(document).ready(function() {
         } else {
              $("#fccstatus").html("Free code camp us currently ONLINE!")
          }
+        }
+    });
+
+    $.ajax({
+    type: "GET",
+    url: "https://api.twitch.tv/kraken/users/freecodecamp/follows/channels",
+    headers: {
+        'Client-ID': 'jqid6bqablk6skn7fz1n39qxmz75d3'
+    },
+    success: function(data2) {
+            for (var i=0; i<data2.follows.length ; i++) {
+                var displayName = data2.follows[i].channel.display_name;
+                following.push(displayName);
+            }
+            following.push('jessica');
+            following.push('grinberg');
+            console.log(following)
         }
     });
 
