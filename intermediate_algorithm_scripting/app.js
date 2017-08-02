@@ -11,3 +11,24 @@ function sumAll(arr) {
 }
 
 sumAll([1, 4]);
+
+
+//2.Diff Two Arrays
+function diffArray(arr1, arr2) {
+  var newArr = [];
+
+  function onlyInFirst(first,second) {
+    // Looping through an array to find elements that don't exist in another array
+    for (var i=0; i<first.length; i++) {
+      if(second.indexOf(first[i]) === -1) {
+        newArr.push(first[i]);
+      }
+    }
+  }
+  // Same, same; but different.
+  onlyInFirst(arr1,arr2);
+  onlyInFirst(arr2,arr1);
+  return newArr;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
