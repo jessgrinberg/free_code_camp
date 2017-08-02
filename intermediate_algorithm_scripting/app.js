@@ -28,6 +28,7 @@ function diffArray(arr1, arr2) {
   // Same, same; but different.
   onlyInFirst(arr1,arr2);
   onlyInFirst(arr2,arr1);
+  document.querySelector('#two').innerHTML = newArr;
   return newArr;
 }
 
